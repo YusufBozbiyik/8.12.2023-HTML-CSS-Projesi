@@ -1,0 +1,33 @@
+.kurslar{
+    position: absolute;
+    bottom: 100px;
+    width: 100%;
+    color: #fff;
+}
+.kurslar .kurs{
+    width: 30%;
+    margin-right: 5%;
+    background-color: rgba(86, 86, 75, 0.5);
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    transition: all 0.2s;
+}
+.kurs a{
+    color: #ffb606;
+    font-size: 15px;
+    margin-top: 20px;
+    display: inline-block;
+}
+.kurs>i{
+    margin-right: 50px;
+    font-size: 50px;
+    color: #ffb606;
+}
+.kurslar .kurs:last-child{
+    margin-right: 0;
+}
+
+.kurslar .kurs:hover{
+    background-color: rgba(86, 86, 75, 1);
+}
